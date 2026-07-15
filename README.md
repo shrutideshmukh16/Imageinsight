@@ -18,32 +18,6 @@ A Python-based application that extracts metadata from multiple images using con
 
 ---
 
-## 📁 Project Structure
-
-```
-ImageInsight
-│
-├── images/
-├── logs/
-├── output/
-├── src/
-│   ├── extractor.py
-│   ├── processor.py
-│   ├── report.py
-│   ├── logger.py
-│   └── utils.py
-│
-├── tests/
-│   └── test_extractor.py
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 ## ⚙️ Technologies Used
 
 - Python 3
@@ -57,44 +31,6 @@ ImageInsight
 
 ---
 
-## 🚀 Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/imageinsight.git
-```
-
-Move into the project.
-
-```bash
-cd imageinsight
-```
-
-Install dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run
-
-```bash
-python main.py
-```
-
----
-
-## 🧪 Run Unit Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
-
----
-
 ## 📄 Output
 
 The project generates:
@@ -102,21 +38,3 @@ The project generates:
 - metadata.csv
 - summary.txt
 - imageinsight.log
-
----
-
-## 📌 Future Improvements
-
-- GUI using Tkinter or PyQt
-- Drag & Drop image support
-- PDF report generation
-- Image preview
-- EXIF metadata extraction
-- Progress bar
-- Folder selection dialog
-
----
-
-## 👩‍💻 Author
-
-Shruti Deshmukh
