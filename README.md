@@ -31,7 +31,6 @@ ImageInsight
 │   ├── processor.py
 │   ├── report.py
 │   ├── logger.py
-│   └── utils.py
 │
 ├── tests/
 │   └── test_extractor.py
